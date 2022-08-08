@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b13047f116.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>KartKrunch - Your Favorite food, in your View</title>
+</head>
+<body>
+
+
+    <div class="main_container">
+        <!-- MAIN NAVIGATION BAR BEGINS -->
+        <div class="main_nav_container">
+            <div class="search_main" id="search_main">
+                <div class="search_01">
+                    <!-- <div class="btn" > -->
+                        <div class="bk_icon" onclick="makeSearchDis()"><i class="material-icons">arrow_back</i></div>
+                    <!-- </div> -->
+                    <div class="search_input"><form action=""><input type="search" placeholder="find foods, brands stores..."></form></div>
+                     <div class="filter_icon"><i class="material-icons">tune</i></div>
+                </div>
+                <div class="main_location_div">
+                    <ul>
+                        <li><a href="#"><i class="material-icons">location_on</i></a></li>
+                        <li><a href="#">to</a></li>
+                        <li><a href="#">16, Shifau Ikosi, Ketu...</a></li>
+                    </ul>
+                </div>    
+                <div class="search_02">
+                    <ul>
+                        <li><i class="material-icons">search</i>Chicken</li>
+                    </ul>
+                </div>
+            </div>
+            <!--NAVIGATION BAR HERE-->
+            <div class="main_nav_div">  
+                
+                <div class="nav_bar_caller"  onclick="idCallerFunction();"><a href="#"><i class="material-icons" id="nav_bar_caller_id">menu</i></a></div>
+                <div class="nav_logo" id="nav_logo_id" onclick="logoColorFunction();" ><a href="#" id="logowame" ondblclick ="logoWame();">KartKrunch</a></div>
+                <div class="nav_input_div"><a href="#" class="nav_input">
+                <div class="div_search">
+                    <div class="div_input" id="div_input">
+                        <div class="div_icon" id="div_icon"><i class="material-icons">search</i></div>
+                        <div><input type="search" placeholder="find Foods, brands stores..." id="bar" onfocus="searchBarSize();" onblur="searchBarSize2();"></div>   <!--food.. brands Search Food, Brands and your favs.... Search foods, brands and stores.... around you.....-->
+                    </div>
+                    <div style="border: solid; position: relative; top: 100px; width: .1px;" class="search_div" id="search_div">
+                        
+                    </div>
+                </div>
+                </a></div>
+
+                <div class="location_web">
+                    <div class="location_icon"><a href="#"><i class="material-icons-outlined" >location_on</i></a></div>
+                    <div class="location_place"><a href="#">to</a></div>
+                    <div class="location_where"><a href="#"><h4>31,Saint Loius Str,Lankdndvvdjdvjhfdj</h4> </a></div>
+                    <div class="location"><a href="#"><i class="material-icons">keyboard_arrow_down</i></a></div>
+                </div>
+                    <div class="cart_part"><a href="#" class="nav_cart"><i class="material-icons">shopping_cart</i></a></div>
+
+            </div>
+            <!-- NAVIGATION BAR ENDS -->
+
+            <!-- LOCATION BAR ENDS -->
+            <div class="main_location_div">
+                <ul>
+                    <li><a href="#"><i class="material-icons-outlined">location_on_outlined</i></a></li>
+                    <li><a href="#">to</a></li>
+                    <li><a href="#">16, Shifau Ikosi, Ketu...</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- NAVIGATION BAR ENDS HERE -->
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
