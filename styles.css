@@ -32,7 +32,7 @@ header{
     color: orangered;
     font-family: "Montserrat", sans-serif;
     margin-right: auto;
-    font-size: 6.6vw;
+    /* font-size: 6.6vw; */
 }
 
 .logo span{
