@@ -34,9 +34,8 @@ header section{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 13px 4%;
-    background-image: #ffff;
-    background-color: #ffff;
+    padding: 10px 4%;
+    background-color: white;
     box-shadow: 1px 0.3px 2px 1px #dddddd;
 }
 
