@@ -34,7 +34,7 @@ header section{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 10px 4%;
+    padding: 10px 3.5% 10px 0;
     background-color: white;
     box-shadow: 1px 0.3px 2px 1px #dddddd;
 }
@@ -49,6 +49,7 @@ header section{
     color: orangered;
     font-family: "Montserrat", sans-serif;
     margin-right: auto;
+    font-size: 20px;
     /* font-size: 20px; */
     /* font-size: 6.6vw; */
 }
@@ -94,7 +95,7 @@ header .srch-dv .supp-icon{display: none;}
 
 .sch-icon{margin-top: auto; margin-bottom: auto; margin: auto 10px; color: #ff7a00; font-size: 20px;
 border: solid thin silver;
-    padding: 5px 5px;
+    padding: 4px 4px;
         border-radius: 10px;
 }
 
@@ -128,7 +129,7 @@ header .srch-dv .contact-itrc .sugg-search{
 .ct-link{
     /* border: solid 0.3px blue; */
     background-color: orange;
-    max-height: 30px;
+    /* max-height: 30px; */
     padding: 5px;
     border-radius: 8px;
     display: flex;
@@ -199,10 +200,11 @@ header .srch-dv .contact-itrc .sugg-search{
         border-bottom-right-radius: 15px; */
     }
     
-    header .srch-dv .contact-itrc .input-div form input[type=search]{display: block; width: 200px; height: 100%;  border: none; background-color: rgba(191, 191, 191, 0.241); border-radius: 10px; padding: 5px; outline: rgb(237, 236, 236); border: silver solid thin; 
+    header .srch-dv .contact-itrc .input-div form input[type=search]{display: block; width: 210px; height: 100%;  border: none; background-color: rgba(237, 236, 236, 0.241); border-radius: 10px; padding: 10px; outline: rgb(237, 236, 236); ; 
         /* border-top-right-radius: 15px; border-bottom-right-radius: 15px; */
     }
-    .sch-icon{margin-top: auto; margin-bottom: auto; margin: auto 8px; color: #ff7a00; cursor: pointer; background-color: white;}
+
+    .sch-icon{margin-top: auto; margin-bottom: auto; margin: auto 3px; color: #ff7a00; cursor: pointer; background-color: white; margin-right: 0;}
 
     header .srch-dv .contact-itrc .sugg-search{
         display: none;
