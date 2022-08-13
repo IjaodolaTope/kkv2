@@ -10,6 +10,8 @@ body{
     /* background-color: rgba(192, 192, 192, 0.322); */
 }
 
+.disp-nn{display: none;}
+
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -18,14 +20,29 @@ li, a, button {
     text-decoration: none;
 }
 
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
 header{
+    display: flex;
+    flex-direction: column;
+}
+
+header section{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 15px 3.6%;
+    padding: 13px 4%;
     background-image: #ffff;
     background-color: #ffff;
     box-shadow: 1px 0.3px 2px 1px #dddddd;
+}
+
+.section2{
+    padding: 5px 3.6%;
+    justify-content: center;
 }
 
 .logo{
@@ -33,30 +50,15 @@ header{
     color: orangered;
     font-family: "Montserrat", sans-serif;
     margin-right: auto;
+    /* font-size: 20px; */
     /* font-size: 6.6vw; */
 }
 
 .logo span{
-    color: orange;
+    /* color: orange; */
+    color: #ff7a00;
 }
 
-.nav_links{
-    list-style: none;
-}
-
-.nav_links li{
-    display: inline-block;
-    padding: 0 20px;
-   
-}
-
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover{
-    color: #0088a9;
-}
 
 button{
     padding: 9px 25px;
@@ -71,26 +73,179 @@ button:hover{
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-img{
-    max-width: 24px;
-    margin-right: 15px;
+header .srch-dv{
+    /* margin-right: auto; */
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
 }
 
-.search_icon{
-    /* border: solid; */
-    margin-right: 6%;
+header .contact-itrc{
+    display: flex;
+    margin-right: auto;
 }
+
+header .srch-dv .supp-icon{display: none;}
+
+.input-div{
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.sch-icon{margin-top: auto; margin-bottom: auto; margin: auto 10px; color: #ff7a00; font-size: 20px;
+border: solid thin silver;
+    padding: 5px 5px;
+        border-radius: 10px;
+}
+
+header .srch-dv .contact-itrc .input-div form input[type=search]{display: none;
+}
+
+form{
+    margin-right: auto;
+}
+
+header .srch-dv .contact-itrc .sugg-search{
+    display: none;
+}
+
+.lctn{display: none;}
+
+.expand-lctn-icon{margin-top: auto;}
+
+.cart-text{font-family: helvetica; font-weight: bold;}
+
+.ct-dv{display: flex; align-items: center;}
 
 .user-icon{margin-right: 10px; max-width: 28px;}
 
 .user-link{border: ;}
 
-.ct-icon{margin-right: 0;}
+.ct-icon{font-size: 24px; font-weight: 500; color: white; }
+
+.section2{}
 
 .ct-link{
     /* border: solid 0.3px blue; */
     background-color: orange;
     max-height: 30px;
-    padding: 3px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.ct-text{display: none;}
+
+.plc-to{
+    border: solid;
+    width: 300px;
+}
+
+.nvg-icon{
+    margin-right: 0;
+    /* width: 0px; */
+}
+
+.lctn1{display: block;   display: flex; 
+     cursor: pointer;}
+
+    .Delvry-link1{
+        background-color: black;        padding: 6px;        border-radius: 5px;
+        font-size: 11px;       font-weight: bold;
+        margin-right: 10px;     margin-top: auto;        margin-bottom: auto;
+        color: white;
+    }
+
+    .locatn-tt1{margin-top: auto; margin-bottom: auto; margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px;}
+
+    .address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-decoration: underline;
+    margin-top: auto;}
+
+@media only screen and (min-width:600px){
+    header .srch-dv{
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    header .contact-itrc{
+        display: flex;
+        margin-right: auto;
+    }    
+
+    header .srch-dv .supp-icon{   
+        display: block; 
+        color: #ff7a00;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 30px;
+        margin-right: 0px;
+    }
+
+    .input-div{
+        display: flex;
+        /* border: solid thin silver; */
+        height: 36px;
+        vertical-align: middle;
+        justify-content: center;
+        background-color: rgba(191, 191, 191, 0.241);
+        border-radius: 10px;
+        /* border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px; */
+    }
+    
+    header .srch-dv .contact-itrc .input-div form input[type=search]{display: block; width: 200px; height: 100%;  border: none; background-color: rgba(191, 191, 191, 0.241); border-radius: 10px; padding: 5px; outline: rgb(237, 236, 236); border: silver solid thin; 
+        /* border-top-right-radius: 15px; border-bottom-right-radius: 15px; */
+    }
+    .sch-icon{margin-top: auto; margin-bottom: auto; margin: auto 8px; color: #ff7a00; cursor: pointer; background-color: white;}
+
+    header .srch-dv .contact-itrc .sugg-search{
+        display: none;
+        position: absolute;
+        border: solid silver thin;
+        height: 300px;
+        top: 10%;
+    }
+
+    .person-icon{
+        display: none;
+    }
+
+    .lctn{display: block;   display: flex; 
+    margin-right: auto;         cursor: pointer;}
+
+    .Delvry-link{
+        background-color: black;        padding: 6px;        border-radius: 5px;
+        font-size: 11px;       font-weight: bold;
+        margin-right: 10px;     margin-top: auto;        margin-bottom: auto;
+        color: white;
+    }
+
+    .locatn-tt{margin-top: auto; margin-bottom: auto; margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px;}
+
+    .address{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-decoration: underline;
+    margin-top: auto;}
+
+    .ct-icon{font-size: 24px; font-weight: 500; color: white; }
+
+    .ct-link{
+    /* border: solid 0.3px blue; */
+    background-color: orange;
+    max-height: 30px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .ct-text{display: block; border-left: solid 1.8px white; color: white; margin-left: 5px; padding-left: 6px;}
+
+    }
+
