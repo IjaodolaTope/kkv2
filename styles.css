@@ -36,12 +36,13 @@ header section{
     align-items: center;
     padding: 10px 3.5% 10px 0;
     background-color: white;
-    box-shadow: 1px 0.3px 2px 1px #dddddd;
+    /* box-shadow: 1px 0.3px 2px 1px #dddddd; */
 }
 
 .section2{
     padding: 5px 3.6%;
     justify-content: center;
+    box-shadow: 1px 1px 1px rgba(192, 192, 192, 0.527);
 }
 
 .logo{
@@ -120,11 +121,9 @@ header .srch-dv .contact-itrc .sugg-search{
 
 .user-icon{margin-right: 10px; max-width: 28px;}
 
-.user-link{border: ;}
+/* .user-link{border: ;} */
 
 .ct-icon{font-size: 24px; font-weight: 500; color: white; }
-
-.section2{}
 
 .ct-link{
     /* border: solid 0.3px blue; */
@@ -152,17 +151,85 @@ header .srch-dv .contact-itrc .sugg-search{
 .lctn1{display: block;   display: flex; 
      cursor: pointer;}
 
-    .Delvry-link1{
-        background-color: black;        padding: 6px;        border-radius: 5px;
-        font-size: 11px;       font-weight: bold;
-        margin-right: 10px;     margin-top: auto;        margin-bottom: auto;
-        color: white;
+.Delvry-link1{
+    font-size: 11px;       font-weight: bold;
+    background-color: black;        padding: 6px;        border-radius: 5px;
+    color: white;
+    margin-right: 10px;      margin-bottom: auto;
+    }
+    
+.locatn-tt1{
+    margin-bottom: auto;
+    margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu,Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 15px;}
+    
+.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-decoration: underline; font-size: 16px;
+   }
+
+    .expand-lctn-icon1{margin-bottom: auto;}
+
+    .sctn3{
+        margin-top: 10px;
+        /* padding-left: 10px; */
+        /* padding: 5px 5px; */
+        padding-left: 10px;
+        height: 20vh;
+
+        /* display: flex; */
     }
 
-    .locatn-tt1{margin-top: auto; margin-bottom: auto; margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px;}
+    div.scrollcrcl{
+        /* background-color: blue; */
+        overflow: auto;
+        white-space: nowrap;
+        padding-top: 0;
+        height: 15vh;
+    }
 
-    .address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-decoration: underline;
-    margin-top: auto;}
+    div.scrollcrcl a{
+        margin-top: auto;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        /* padding: 30px 40px; */
+        width: 350px;
+        height: 95%;
+        margin: 0;
+        text-decoration: none;
+        margin-right: 10px;
+        background-color: blue;
+        background-image: url(chicken\ yummy.png);
+        /* height: 100px; */
+        /* width: 300px; */
+        border-radius: 10px;
+    }
+
+    div.scrollcrcl a :hover{
+        background-color: #777;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width:600px){
     header .srch-dv{
@@ -248,5 +315,7 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .ct-text{display: block; border-left: solid 1.8px white; color: white; margin-left: 5px; padding-left: 6px;}
 
-    }
+    .sctn2{display: none;}
+
+}
 
