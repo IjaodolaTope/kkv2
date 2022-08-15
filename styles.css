@@ -136,7 +136,7 @@ header .srch-dv .contact-itrc .sugg-search{
 
 .ct-link{
     /* border: solid 0.3px blue; */
-    background-color: orange;
+    background-color: orangered;
     /* max-height: 30px; */
     padding: 5px;
     border-radius: 8px;
@@ -208,7 +208,7 @@ header .srch-dv .contact-itrc .sugg-search{
         display: inline-block;
         color: white;
         text-align: center;
-        border: solid #ff7a00 thin;
+        border: solid orangered thin;
         /* padding: 30px 40px; */
         /* max-height: 60px; */
         padding: 0;
@@ -241,7 +241,7 @@ header .srch-dv .contact-itrc .sugg-search{
         /* border: solid thin; */
     }
     .shfflebtn{
-        border: solid 1px #ff7a00;
+        border: solid 1px orangered;
         display: flex;
         margin: 0 auto;
         width: 87%;
@@ -257,7 +257,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sectn4 .shfflebtn p{
-        color: #ff7a00;
+        color: orangered;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 24px;
         margin-left: 5%;
@@ -271,6 +271,8 @@ header .srch-dv .contact-itrc .sugg-search{
         display: flex;
         flex-direction: column;
         text-align: left;
+        /* border: solid thin; */
+        padding-bottom: 2px;
     }
 
     .section5 p{
@@ -295,7 +297,7 @@ header .srch-dv .contact-itrc .sugg-search{
         border: solid thin silver;
         /* border: none; */
         border-radius: 10px;
-        margin-right: 3px;
+        margin-right: 10px;
         padding: 4px;
         background-color: rgba(255, 255, 255, 0.541);
     }
