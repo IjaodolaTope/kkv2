@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body{
     background-color: #f4f4f4;
+    /* background-color:  */
 }
 
 *{
@@ -9,6 +10,8 @@ body{
     padding: 0;
     /* background-color: rgba(192, 192, 192, 0.322); */
 }
+
+a{-webkit-tap-highlight-color: transparent;}
 
 .disp-nn{display: none;}
 
@@ -30,19 +33,23 @@ header{
     flex-direction: column;
 }
 
+.sctn1{ 
+    border: solid thin silver;
+}
+
 header section{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 10px 3.5% 10px 0;
+    padding: 10px 3.5% 10px 3.5%;
+    /* border-bottom: solid silver thin; */
     background-color: white;
-    /* box-shadow: 1px 0.3px 2px 1px #dddddd; */
 }
 
-.section2{
+.sctn2{
     padding: 5px 3.6%;
     justify-content: center;
-    box-shadow: 1px 1px 1px rgba(192, 192, 192, 0.527);
+    box-shadow: 1px 1px rgba(192, 192, 192, 0.527);
 }
 
 .logo{
@@ -94,7 +101,7 @@ header .srch-dv .supp-icon{display: none;}
     justify-content: center;
 }
 
-.sch-icon{margin-top: auto; margin-bottom: auto; margin: auto 10px; color: #ff7a00; font-size: 20px;
+.sch-icon{margin-top: auto; margin-bottom: auto; margin-right: 10px; color: #ff7a00; font-size: 20px;
 border: solid thin silver;
     padding: 4px 4px;
         border-radius: 10px;
@@ -148,6 +155,8 @@ header .srch-dv .contact-itrc .sugg-search{
     /* width: 0px; */
 }
 
+.sctn2{ align-items: center;}
+
 .lctn1{display: block;   display: flex; 
      cursor: pointer;}
 
@@ -155,26 +164,28 @@ header .srch-dv .contact-itrc .sugg-search{
     font-size: 11px;       font-weight: bold;
     background-color: black;        padding: 6px;        border-radius: 5px;
     color: white;
-    margin-right: 10px;      margin-bottom: auto;
+    margin-right: 10px;      
     }
     
 .locatn-tt1{
-    margin-bottom: auto;
     margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu,Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 15px;}
     
-.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-decoration: underline; font-size: 16px;
+.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-size: 18px; 
    }
 
-    .expand-lctn-icon1{margin-bottom: auto;}
+    .expand-lctn-icon1{
+        margin-top: auto;}
 
     .sctn3{
         margin-top: 10px;
         /* padding-left: 10px; */
         /* padding: 5px 5px; */
-        padding-left: 10px;
-        height: 20vh;
-
-        /* display: flex; */
+       
+        padding: 0; 
+        padding-top: 2%;
+        padding-left: 3.5%;
+        padding-bottom: 0;
+        /* border: solid thin; */
     }
 
     div.scrollcrcl{
@@ -187,17 +198,22 @@ header .srch-dv .contact-itrc .sugg-search{
 
     div.scrollcrcl a{
         margin-top: auto;
+        margin-top: auto;
         display: inline-block;
         color: white;
         text-align: center;
+        border: solid #ff7a00 thin;
         /* padding: 30px 40px; */
-        width: 350px;
-        height: 95%;
+        /* max-height: 60px; */
+        padding: 0;
+        width: 280px;
+        height: 93%;
         margin: 0;
         text-decoration: none;
         margin-right: 10px;
-        background-color: blue;
-        background-image: url(chicken\ yummy.png);
+        /* background-color: blue; */
+        background-size: 100% 100%;
+        background-image: url(hamid-roshaan-uIiMSu88RZQ-unsplash.jpg);
         /* height: 100px; */
         /* width: 300px; */
         border-radius: 10px;
@@ -207,6 +223,38 @@ header .srch-dv .contact-itrc .sugg-search{
         background-color: #777;
     }
 
+    .sectn4{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        ;
+        padding: 3% 3.5%;
+        padding-bottom: 3%;
+        background-color: white;
+        /* border: solid thin; */
+    }
+    .shfflebtn{
+        border: solid 3px #ff7a00;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .sectn4 .shfflebtn img{
+        width: 80px;
+        height: 40px;
+        padding-left: 8%;
+    }
+
+    .sectn4 .shfflebtn p{
+        color: #ff7a00;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 25px;
+        margin-left: 5%;
+        letter-spacing: 3px;
+    }
+    
 
 
 
@@ -230,8 +278,11 @@ header .srch-dv .contact-itrc .sugg-search{
 
 
 
+@media only screen and (min-width:720px){
+    .logo{
+        font-size: 1.6vw;
+    }
 
-@media only screen and (min-width:600px){
     header .srch-dv{
         margin-right: auto;
         display: flex;
@@ -271,7 +322,7 @@ header .srch-dv .contact-itrc .sugg-search{
         /* border-top-right-radius: 15px; border-bottom-right-radius: 15px; */
     }
 
-    .sch-icon{margin-top: auto; margin-bottom: auto; margin: auto 3px; color: #ff7a00; cursor: pointer; background-color: white; margin-right: 0;}
+    .sch-icon{margin: auto 3px; color: #ff7a00; cursor: pointer; background-color: white; margin-right: 0;}
 
     header .srch-dv .contact-itrc .sugg-search{
         display: none;
@@ -285,20 +336,20 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
 
-    .lctn{display: block;   display: flex; 
+    .lctn{display: block;   display: flex; align-items: center;
     margin-right: auto;         cursor: pointer;}
 
     .Delvry-link{
         background-color: black;        padding: 6px;        border-radius: 5px;
         font-size: 11px;       font-weight: bold;
-        margin-right: 10px;     margin-top: auto;        margin-bottom: auto;
+        margin-right: 10px;         margin-bottom: auto;
         color: white;
     }
 
-    .locatn-tt{margin-top: auto; margin-bottom: auto; margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px;}
+    .locatn-tt{ margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px;}
 
-    .address{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-decoration: underline;
-    margin-top: auto;}
+    .address{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    }
 
     .ct-icon{font-size: 24px; font-weight: 500; color: white; }
 
@@ -317,5 +368,26 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .sctn2{display: none;}
 
-}
+    .sctn3{
+        width: 80%;
+        margin: 0.3% auto;
+        margin-top: 10px;
+        border-radius: 5px;
+        /* padding-left: 0; */
+        /* padding: ; */
+    }
+
+    div.scrollcrcl{
+          /* background-color: blue; */
+          overflow: auto;
+          white-space: nowrap;
+          padding-top: 0;
+          height: 16vh;
+          display: none;
+    }
+
+
+
+    }   
+
 
