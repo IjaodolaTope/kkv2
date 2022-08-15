@@ -34,7 +34,7 @@ header{
 }
 
 .sctn1{ 
-    border: solid thin silver;
+    border-bottom: solid thin silver;
 }
 
 header section{
@@ -170,11 +170,13 @@ header .srch-dv .contact-itrc .sugg-search{
 .locatn-tt1{
     margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu,Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 15px;}
     
-.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-size: 18px; 
+.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-size: 16px; color: silver; 
    }
 
     .expand-lctn-icon1{
-        margin-top: auto;}
+        margin-top: auto;
+        font-size: 15px;
+    }
 
     .sctn3{
         margin-top: 10px;
@@ -213,7 +215,7 @@ header .srch-dv .contact-itrc .sugg-search{
         margin-right: 10px;
         /* background-color: blue; */
         background-size: 100% 100%;
-        background-image: url(hamid-roshaan-uIiMSu88RZQ-unsplash.jpg);
+        background-image: url(COD\ DOWNLOADED\ IMAGE\ 2.jpg);
         /* height: 100px; */
         /* width: 300px; */
         border-radius: 10px;
@@ -234,7 +236,7 @@ header .srch-dv .contact-itrc .sugg-search{
         /* border: solid thin; */
     }
     .shfflebtn{
-        border: solid 3px #ff7a00;
+        border: solid 2px #ff7a00;
         display: flex;
         width: 100%;
         align-items: center;
