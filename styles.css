@@ -36,6 +36,7 @@ header{
 .sctn1{ 
     border-bottom: none;
     padding: 6px 5%;
+    box-shadow: none;
 }
 
 header section{
@@ -182,14 +183,15 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sctn3{
-        margin-top: 8px;
+        margin-top: 3px;
         /* padding-left: 10px; */
         /* padding: 5px 5px; */
-       
+
         padding: 0; 
         padding-top: 2%;
         padding-left: 6%;
         padding-bottom: 0;
+        box-shadow: none;
         /* border: solid thin; */
     }
 
@@ -267,12 +269,13 @@ header .srch-dv .contact-itrc .sugg-search{
     .section5{
         /* display: flex; */
         justify-content: center;
-        margin-top: 8px;
+        margin-top: 3px;
         display: flex;
         flex-direction: column;
         text-align: left;
         /* border: solid thin; */
         padding-bottom: 2px;
+        background-color: transparent;
     }
 
     .section5 p{
