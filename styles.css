@@ -35,6 +35,7 @@ header{
 
 .sctn1{ 
     border-bottom: solid thin silver;
+    padding: 6px 3.5%;
 }
 
 header section{
@@ -155,10 +156,10 @@ header .srch-dv .contact-itrc .sugg-search{
     /* width: 0px; */
 }
 
-.sctn2{ align-items: center;}
+.sctn2{ align-items: center; background-color: rgba(255, 255, 255, 0.39); padding: 0;}
 
 .lctn1{display: block;   display: flex; 
-     cursor: pointer;}
+     cursor: pointer; align-items: center; justify-content: center;}
 
 .Delvry-link1{
     font-size: 11px;       font-weight: bold;
@@ -170,7 +171,8 @@ header .srch-dv .contact-itrc .sugg-search{
 .locatn-tt1{
     margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu,Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 15px;}
     
-.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-size: 16px; color: silver; 
+.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-size: 14px; color: rgb(179, 179, 179); 
+    margin-top: auto; margin-bottom: auto; padding: 5px 0;
    }
 
     .expand-lctn-icon1{
@@ -251,7 +253,7 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .sectn4 .shfflebtn p{
         color: #ff7a00;
-        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
         margin-left: 5%;
         letter-spacing: 3px;
