@@ -34,7 +34,7 @@ header{
 }
 
 .sctn1{ 
-    border-bottom: solid thin silver;
+    border-bottom: solid thin rgba(192, 192, 192, 0.452);
     padding: 6px 3.5%;
 }
 
@@ -187,7 +187,7 @@ header .srch-dv .contact-itrc .sugg-search{
        
         padding: 0; 
         padding-top: 2%;
-        padding-left: 3.5%;
+        padding-left: 4%;
         padding-bottom: 0;
         /* border: solid thin; */
     }
@@ -232,7 +232,7 @@ header .srch-dv .contact-itrc .sugg-search{
         justify-content: left;
         align-items: left;
         ;
-        padding: 3% 3.5%;
+        padding: 3% 0;
         padding-bottom: 3%;
         background-color: white;
         /* border: solid thin; */
@@ -240,14 +240,16 @@ header .srch-dv .contact-itrc .sugg-search{
     .shfflebtn{
         border: solid 2px #ff7a00;
         display: flex;
-        width: 100%;
+        margin: 0 auto;
+        width: 90%;
         align-items: center;
         border-radius: 10px;
+        box-shadow: 0.8px 2px 1px 1px rgba(192, 192, 192, 0.445);
     }
 
     .sectn4 .shfflebtn img{
         width: 80px;
-        height: 35px;
+        height: 38px;
         padding-left: 8%;
     }
 
@@ -258,10 +260,19 @@ header .srch-dv .contact-itrc .sugg-search{
         margin-left: 5%;
         letter-spacing: 3px;
     }
-    
 
+    .section5{
+        /* display: flex; */
+    }
 
+    .section5 .category-crcl{
+        display: flex;
+        overflow: auto;
+    }
 
+    .section5 div div {
+
+    }
 
 
 
@@ -355,6 +366,8 @@ header .srch-dv .contact-itrc .sugg-search{
     .address{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     }
 
+    .exd-ltcn{margin-top: auto; margin-bottom: auto;}
+
     .ct-icon{font-size: 24px; font-weight: 500; color: white; }
 
     .ct-link{
@@ -376,7 +389,7 @@ header .srch-dv .contact-itrc .sugg-search{
         width: 80%;
         margin: 0.3% auto;
         margin-top: 10px;
-        border-radius: 5px;
+        border-radius: 3px;
         /* padding-left: 0; */
         /* padding: ; */
     }
@@ -390,6 +403,15 @@ header .srch-dv .contact-itrc .sugg-search{
           display: none;
     }
 
+    .sectn4{
+        display: none;
+    }
+
+    .sctn5{
+        width: 80%;
+        margin: 0.2% auto;
+        border-radius: 4px;
+    }
 
 
     }   
