@@ -37,6 +37,8 @@ header{
     border-bottom: none;
     padding: 6px 5%;
     box-shadow: none;
+    width: auto;
+    margin:0;
 }
 
 header section{
@@ -183,7 +185,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sctn3{
-        margin-top: 3px;
+        margin-top: 0px;
         /* padding-left: 10px; */
         /* padding: 5px 5px; */
 
@@ -269,13 +271,15 @@ header .srch-dv .contact-itrc .sugg-search{
     .section5{
         /* display: flex; */
         justify-content: center;
-        margin-top: 3px;
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
         text-align: left;
         /* border: solid thin; */
         padding-bottom: 2px;
         background-color: transparent;
+        padding: 8px 2px;
+        padding-bottom: 0;
     }
 
     .section5 p{
@@ -287,6 +291,7 @@ header .srch-dv .contact-itrc .sugg-search{
         overflow: auto;
         width: 92%;
         padding-bottom: 5px;
+        /* padding: 0px 0; */
         /* justify-content: center; */
     }
 
@@ -298,7 +303,7 @@ header .srch-dv .contact-itrc .sugg-search{
         height: 45px;
         width: 50px;
         border: solid thin silver;
-        /* border: none; */
+        border: none;
         border-radius: 10px;
         margin-right: 10px;
         padding: 4px;
@@ -327,6 +332,12 @@ header .srch-dv .contact-itrc .sugg-search{
 @media only screen and (min-width:720px){
     .logo{
         font-size: 1.6vw;
+    }
+
+    header section{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     header .srch-dv{
