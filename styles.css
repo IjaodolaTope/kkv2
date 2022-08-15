@@ -34,8 +34,8 @@ header{
 }
 
 .sctn1{ 
-    border-bottom: solid thin rgba(192, 192, 192, 0.452);
-    padding: 6px 3.5%;
+    border-bottom: none;
+    padding: 6px 5%;
 }
 
 header section{
@@ -45,12 +45,13 @@ header section{
     padding: 10px 3.5% 10px 3.5%;
     /* border-bottom: solid silver thin; */
     background-color: white;
+    box-shadow: 1px 1px 3px 0.5px rgba(230, 228, 228, 0.7);
 }
 
 .sctn2{
     padding: 5px 3.6%;
     justify-content: center;
-    box-shadow: 1px 1px rgba(192, 192, 192, 0.527);
+    box-shadow: 0;
 }
 
 .logo{
@@ -102,8 +103,8 @@ header .srch-dv .supp-icon{display: none;}
     justify-content: center;
 }
 
-.sch-icon{margin-top: auto; margin-bottom: auto; margin-right: 10px; color: #ff7a00; font-size: 20px;
-border: solid thin silver;
+.sch-icon{margin-top: auto; margin-bottom: auto; margin-right: 10px; color: black; font-size: 20px;
+/* border: solid thin silver; */
     padding: 4px 4px;
         border-radius: 10px;
 }
@@ -156,7 +157,7 @@ header .srch-dv .contact-itrc .sugg-search{
     /* width: 0px; */
 }
 
-.sctn2{ align-items: center; background-color: rgba(255, 255, 255, 0.39); padding: 0;}
+.sctn2{ align-items: center;  padding: 0;}
 
 .lctn1{display: block;   display: flex; 
      cursor: pointer; align-items: center; justify-content: center;}
@@ -181,13 +182,13 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sctn3{
-        margin-top: 10px;
+        margin-top: 8px;
         /* padding-left: 10px; */
         /* padding: 5px 5px; */
        
         padding: 0; 
         padding-top: 2%;
-        padding-left: 4%;
+        padding-left: 6%;
         padding-bottom: 0;
         /* border: solid thin; */
     }
@@ -197,7 +198,8 @@ header .srch-dv .contact-itrc .sugg-search{
         overflow: auto;
         white-space: nowrap;
         padding-top: 0;
-        height: 15vh;
+        height: 15.5vh;
+        padding-bottom: 10px;
     }
 
     div.scrollcrcl a{
@@ -210,17 +212,18 @@ header .srch-dv .contact-itrc .sugg-search{
         /* padding: 30px 40px; */
         /* max-height: 60px; */
         padding: 0;
+        
         width: 280px;
-        height: 93%;
+        height: 98%;
         margin: 0;
         text-decoration: none;
-        margin-right: 10px;
+        margin-right: 3px;
         /* background-color: blue; */
         background-size: 100% 100%;
-        background-image: url(COD\ DOWNLOADED\ IMAGE\ 2.jpg);
+        background-image: url();
         /* height: 100px; */
         /* width: 300px; */
-        border-radius: 10px;
+        border-radius: 8px;
     }
 
     div.scrollcrcl a :hover{
@@ -238,18 +241,18 @@ header .srch-dv .contact-itrc .sugg-search{
         /* border: solid thin; */
     }
     .shfflebtn{
-        border: solid 2px #ff7a00;
+        border: solid 1px #ff7a00;
         display: flex;
         margin: 0 auto;
-        width: 90%;
+        width: 87%;
         align-items: center;
-        border-radius: 10px;
+        border-radius: 8px;
         box-shadow: 0.8px 2px 1px 1px rgba(192, 192, 192, 0.445);
     }
 
     .sectn4 .shfflebtn img{
         width: 80px;
-        height: 38px;
+        height: 40px;
         padding-left: 8%;
     }
 
@@ -263,15 +266,38 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .section5{
         /* display: flex; */
+        justify-content: center;
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .section5 p{
+        text-align: left;
     }
 
     .section5 .category-crcl{
         display: flex;
         overflow: auto;
+        width: 92%;
+        padding-bottom: 5px;
+        /* justify-content: center; */
     }
 
     .section5 div div {
+        /* border: solid thin; */
+    }
 
+    .section5 div div img{
+        height: 45px;
+        width: 50px;
+        border: solid thin silver;
+        /* border: none; */
+        border-radius: 10px;
+        margin-right: 3px;
+        padding: 4px;
+        background-color: rgba(255, 255, 255, 0.541);
     }
 
 
@@ -407,10 +433,26 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
 
-    .sctn5{
+    .section5{
         width: 80%;
         margin: 0.2% auto;
-        border-radius: 4px;
+        /* border-radius: 4px; */
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .section5 .category-crcl{
+        /* display: flex;
+        overflow: auto;
+        width: 92%;
+        padding-bottom: 5px; */
+        justify-content: center;
+    }
+
+    .section5 div div img{
+        border: none;
+        border-radius: 15px;
+ 
     }
 
 
