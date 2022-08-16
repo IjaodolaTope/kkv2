@@ -375,11 +375,12 @@ header .srch-dv .contact-itrc .sugg-search{
         align-items: center;
         display: flex;
         color: white;
+        align-items: center;
     }
 
     .section6 div .filter p{
         font-family: helvetica;
-        font-size: 17px;
+        font-size: 14px;
     }
 
 
