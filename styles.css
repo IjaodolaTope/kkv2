@@ -60,6 +60,7 @@ header section{
 .side-icon{
     margin-top: auto; margin-bottom: auto; margin-right: 10px; color: black; font-size: 20px;
 /* border: solid thin silver; */
+cursor: pointer;
     padding: 4px 4px;
         border-radius: 10px;
 }
@@ -192,7 +193,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sctn3{
-        margin-top: 6px;
+        margin-top: 0px;
         /* padding-left: 10px; */
         /* padding: 5px 5px; */
 
@@ -201,6 +202,7 @@ header .srch-dv .contact-itrc .sugg-search{
         padding-left: 6%;
         padding-bottom: 0;
         box-shadow: none;
+        /* box-shadow: none; */
         /* border: solid thin; */
     }
 
@@ -229,6 +231,7 @@ header .srch-dv .contact-itrc .sugg-search{
         background-size: 100% 100%;
         background-image: url(kfc\ image.jpg);
         border-radius: 8px;
+        margin-bottom: 3px;
     }
 
     div.scrollcrcl a :hover{
@@ -274,23 +277,23 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .section5{
-        /* display: flex; */
         justify-content: center;
-        margin-top: 0px;
+        margin-top: 5px;
         display: flex;
         flex-direction: column;
         text-align: left;
-        /* border: solid thin; */
         padding-bottom: 2px;
         background-color: transparent;
         padding: 8px 2px;
         padding-bottom: 0;
-
-        /* display: none; */
+        margin-bottom: 5px;
+        box-shadow: none;
     }
 
+  
     .section5 p{
         text-align: left;
+     
     }
 
     .section5 .category-crcl{
@@ -300,6 +303,10 @@ header .srch-dv .contact-itrc .sugg-search{
         padding-bottom: 5px;
         /* padding: 0px 0; */
         /* justify-content: center; */
+    }
+
+  .section5 .category-crcl::-webkit-scrollbar{
+        display: none;
     }
 
     .section5 div div {
@@ -321,21 +328,20 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
     .section6{
-        justify-content: left;
+        justify-content: center;
         align-items: center;
         padding: 10px 6%;
-        background-color: rgb(242, 73, 101);
+        background-color: rgba(250, 212, 217, 0.178);
 
     }
     .section6 div{
-        justify-content: left;
-        text-align: left;
+        text-align: center;
     }
 
     .section6 div p{
         font-family: helvetica;
-        font-size: 18px;
-        color: white;
+        font-size: 23px;
+        /* color: white; */
     }
 
 
