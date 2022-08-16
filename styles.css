@@ -55,6 +55,7 @@ header section{
     padding: 5px 3.6%;
     justify-content: center;
     box-shadow: 0;
+    background-color: rgba(255, 255, 255, 0.24);
 }
 
 .side-icon{
@@ -193,7 +194,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sctn3{
-        margin-top: 0px;
+        margin-top: 8px;
         /* padding-left: 10px; */
         /* padding: 5px 5px; */
 
@@ -278,7 +279,6 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .section5{
         justify-content: center;
-        margin-top: 5px;
         display: flex;
         flex-direction: column;
         text-align: left;
@@ -286,7 +286,9 @@ header .srch-dv .contact-itrc .sugg-search{
         background-color: transparent;
         padding: 8px 2px;
         padding-bottom: 0;
-        margin-bottom: 5px;
+
+        margin-top: 10px;
+        margin-bottom: 8px;
         box-shadow: none;
     }
 
@@ -314,13 +316,13 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .section5 div div img{
-        height: 45px;
+        height: 50px;
         width: 55px;
         border: solid thin silver;
         border: none;
         border-radius: 10px;
         margin-right: 10px;
-        padding: 4px;
+        padding: 2px;
         background-color: white;
     }
 
@@ -330,18 +332,38 @@ header .srch-dv .contact-itrc .sugg-search{
     .section6{
         justify-content: center;
         align-items: center;
-        padding: 10px 6%;
-        background-color: rgba(250, 212, 217, 0.178);
+        
+        padding: 0;
+        /* background-color: rgba(250, 212, 217, 0.178); */
 
     }
     .section6 div{
         text-align: center;
+        width: 100%;
+        background-color: tan;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px 6%;
+        padding-right: 4%;
+        justify-content: space-between;
+        display: flex;
     }
 
     .section6 div p{
-        font-family: helvetica;
-        font-size: 23px;
-        /* color: white; */
+        font-family: sans-serif;
+        font-size: 20px;
+        color: white;
+        /* display: inline-block; */
+    }
+
+    .section6 div span{
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .section6 div span p{
+        font-size: 15px;
     }
 
 
