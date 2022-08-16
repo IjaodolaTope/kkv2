@@ -340,11 +340,11 @@ header .srch-dv .contact-itrc .sugg-search{
     .section6 div{
         text-align: center;
         width: 100%;
-        background-color: rgba(250, 212, 217, 0.178);
+        /* background-color: rgba(250, 212, 217, 0.178); */
 
-        /* background-color: tan; */
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        background-color: red;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
         padding: 8px 6%;
         padding-right: 4%;
         justify-content: space-between;
